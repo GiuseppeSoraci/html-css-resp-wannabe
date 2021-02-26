@@ -74,38 +74,71 @@ img {
 
 /* RESPONSIVE */
 
+/* Exercise */
 /* 420px < */
 @media screen and (max-width: 419px) {
-
+  
   .row {
     width: 100%;
+    margin: 0;
+  }
+   
+  img {
+    display: block;
+    margin: auto;
   }
 
   .row > .left,
   .row > .central,
   .row > .right {
     min-width: 100%;
+    text-align: left;
   }
 
-  img {
-    max-width: 100%;
-  }  
+  .row > .first,
+  .row > .second,
+  .row > .third {
+    min-width: 100%;
+    text-align: left;
+  }
+
+  .row > img {
+    text-align: center;
+  }
+    
 }
 
-/* Range 768px to 1023px */
-@media screen and (min-width:768px) and (max-width:1023px) {
+/* Bonus Tablet version */
+/* Range 420px to 768px */
+@media screen and (min-width:420px) and (max-width:768px) {
+
   .row {
     width: 100%;
+    margin: 0;
+  }
+   
+  img {
+    display: block;
+    margin: auto;
   }
 
   .row > .left,
   .row > .central,
   .row > .right {
     min-width: 100%;
+    text-align: left;
   }
 
-  img {
-    max-width: 100%;
+  .row > .first,
+  .row > .second,
+  .row > .third {
+    min-width: 100%;
+    text-align: left;
   }
-}
+
+  .row > img {
+    text-align: center;
+  }
+
+} 
 
