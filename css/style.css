@@ -91,3 +91,21 @@ img {
     max-width: 100%;
   }  
 }
+
+/* Range 768px to 1023px */
+@media screen and (min-width:768px) and (max-width:1023px) {
+  .row {
+    width: 100%;
+  }
+
+  .row > .left,
+  .row > .central,
+  .row > .right {
+    min-width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
+
